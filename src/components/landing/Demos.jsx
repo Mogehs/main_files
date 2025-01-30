@@ -27,7 +27,7 @@ function Demos() {
                   <img src="/landing-preview/img/demos/1.png" alt="" />
                 </div>
                 <h6>01 | Main Home</h6>
-                <Link href="/home-main" target="_blank"></Link>
+                <Link to="/home-main" target="_blank"></Link>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ function Demos() {
                   <img src="/landing-preview/img/demos/2.png" alt="" />
                 </div>
                 <h6>02 | Modern Studio</h6>
-                <a href="/home-modern-studio" target="_blank"></a>
+                <Link to="/home-modern-studio" target="_blank"></Link>
               </div>
             </div>
           </div>
