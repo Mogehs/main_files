@@ -1,6 +1,7 @@
-'use client';
-import React, { useEffect } from 'react';
-import loadBackgroudImages from '../../common/loadBackgroudImages';
+"use client";
+import React, { useEffect } from "react";
+import loadBackgroudImages from "../../common/loadBackgroudImages";
+import { Link } from "react-router-dom";
 
 function Demos() {
   useEffect(() => {
@@ -26,7 +27,7 @@ function Demos() {
                   <img src="/landing-preview/img/demos/1.png" alt="" />
                 </div>
                 <h6>01 | Main Home</h6>
-                <a href="/home-main" target="_blank"></a>
+                <Link href="/home-main" target="_blank"></Link>
               </div>
             </div>
           </div>
